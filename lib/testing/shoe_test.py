@@ -7,7 +7,7 @@ import sys
 
 class TestShoe:
     '''Shoe in shoe.py'''
-
+    
     def test_has_brand_and_size(self):
         '''has the brand and size passed to __init__, and values can be set to new instance.'''
         stan_smith = Shoe("Adidas", 9)
@@ -39,4 +39,4 @@ class TestShoe:
         assert(stan_smith.condition == "New")
         
         
-   
+

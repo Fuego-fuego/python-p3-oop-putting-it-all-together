@@ -32,6 +32,3 @@ class Shoe:
         
 
         
-stan_smith = Shoe("Adidas", 9)
-
-print(stan_smith.size)
